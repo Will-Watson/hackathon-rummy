@@ -17,7 +17,7 @@ const NavigationBar = () => {
             width='200'
             height='30'
             className='d-inline-block align-top'
-            alt='React Bootstrap logo'
+            alt='Logo'
           />
         </Navbar.Brand>
 

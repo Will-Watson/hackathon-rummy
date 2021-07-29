@@ -1,8 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 import NavigationBar from './components/NavigationBar';
-import './App.css';
 import Home from './components/Home';
 
 function App() {
