@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 import NavigationBar from './components/NavigationBar';
 import Home from './components/Home';
+import Game from './components/Game';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <BrowserRouter>
         <NavigationBar />
         <Route exact path='/' component={Home} />
+        <Route exact path='/hackathon-rummy-game' component={Game} />
       </BrowserRouter>
     </div>
   );

@@ -24,7 +24,7 @@ const NavigationBar = () => {
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav
-            className='ml-auto navbar-nav'
+            className='ml-auto'
             activeKey={selected}
             onSelect={(selectedItem) => setSelected(selectedItem)}
             as='ul'
@@ -32,6 +32,16 @@ const NavigationBar = () => {
             <Nav.Item as='li'>
               <Nav.Link eventKey='1' className='nav-item' as={Link} to='/'>
                 Home
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item as='li'>
+              <Nav.Link
+                eventKey='1'
+                className='nav-item'
+                as={Link}
+                to='/hackathon-rummy-game'
+              >
+                Play Now!
               </Nav.Link>
             </Nav.Item>
           </Nav>
