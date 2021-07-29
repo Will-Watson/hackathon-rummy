@@ -32,6 +32,10 @@ body {
   color: grey !important;
 }
 
+.play-now {
+  color: blue !important;
+}
+
 .nav-link.active,
 .nav-link:hover {
   color: maroon !important;

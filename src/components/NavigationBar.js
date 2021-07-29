@@ -36,8 +36,8 @@ const NavigationBar = () => {
             </Nav.Item>
             <Nav.Item as='li'>
               <Nav.Link
-                eventKey='1'
-                className='nav-item'
+                eventKey='2'
+                className='nav-item play-now'
                 as={Link}
                 to='/hackathon-rummy-game'
               >
