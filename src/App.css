@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Baskervville', serif;
   color: white;
   background-image: url('./images/RummyBackground.jpeg');
   -webkit-background-size: cover;
@@ -16,7 +16,7 @@ body {
 }
 
 .navbar {
-  background-color: green;
+  background-color: white;
   font-size: 1.15rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
