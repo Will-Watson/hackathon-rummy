@@ -1,3 +1,14 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Noto Serif', serif;
+  color: white;
+  background-image: url('./images/RummyBackground.jpeg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /* ==================NAVIGATION==================== */
 
 .navbar-brand img {
