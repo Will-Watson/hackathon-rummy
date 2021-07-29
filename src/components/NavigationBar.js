@@ -24,7 +24,7 @@ const NavigationBar = () => {
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav
-            className='ml-auto'
+            className='ms-auto'
             activeKey={selected}
             onSelect={(selectedItem) => setSelected(selectedItem)}
             as='ul'

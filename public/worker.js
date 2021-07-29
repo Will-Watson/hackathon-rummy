@@ -1,6 +1,6 @@
 const CACHE_NAME = 'hackathon-rummy';
 
-const urlsToCache = ['/'];
+const urlsToCache = ['/', 'hackathon-rummy-game'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
