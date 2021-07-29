@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-import logo from '../logo.svg';
+import logo from '../images/RummyLogo.png';
 
 const NavigationBar = () => {
   let [selected, setSelected] = useState('1');
