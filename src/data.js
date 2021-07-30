@@ -51,6 +51,6 @@ export const rules = [
   {
     img: RulesImage8,
     title: 'Lastly',
-    rule: 'Each player will continue these steps during their turns until one player achieves Rummy.',
+    rule: 'If all cards are drawn and the discard pile is full, the discard pile is then shuffled and placed face down with the top card turned over. Each player will continue these steps until one player achieves Rummy.',
   },
 ];
