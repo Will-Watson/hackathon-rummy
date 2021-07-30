@@ -11,7 +11,7 @@ export const rules = [
   {
     img: RulesImage8,
     title: 'RUMMY!',
-    rule: 'Rummy is achieved when one player has one of the following in their hand. \n three of a kind and four of a kind \n three of a kind and a suited four card run \n four of a kind and a suited three card run. Pictured above are some examples.',
+    rule: 'Rummy is achieved when one player has one of the following in their hand. Three of a kind and four of a kind. Three of a kind and a suited four card run. Four of a kind and a suited three card run. Pictured above are some examples.',
   },
   {
     img: RulesImage1,
@@ -46,7 +46,7 @@ export const rules = [
   {
     img: RulesImage7,
     title: 'Seventh',
-    rule: 'The player then has to discard one card from their hand. Here we can see that 9 of spades was discarded as its the least beneficial card in the course to achieve Rummy.',
+    rule: 'The player then has to discard one card from their hand. Here we can see that the 9 of spades was discarded as its the least beneficial card in the course to achieve Rummy.',
   },
   {
     img: RulesImage8,
