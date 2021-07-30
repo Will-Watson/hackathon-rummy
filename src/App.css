@@ -48,6 +48,10 @@ body {
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
+.rules-container img {
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
 /* =================MEDIA QUERIES================= */
 /* devices under 1199px (xl) */
 @media (max-width: 1199.98px) {
