@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
       <footer>
         <div className='container col-sm-10 col-md-8 col-lg-12'>
-          <div className='row text-dark text-center py-4 justify-content-center'>
+          <div className='row text-center py-4 justify-content-center'>
             <div className='col-sm-10 col-md-8 col-lg-6'>
               <p>All inquiries please email williampwatson1991@gmail.com</p>
             </div>
