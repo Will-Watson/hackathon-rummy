@@ -80,7 +80,35 @@ body {
 
 .socials a {
   padding: 2rem;
-  color: red;
+  color: maroon;
+}
+
+.socials a:hover {
+  color: blue;
+}
+
+/* =================FOOTER======================== */
+
+footer {
+  margin-top: 2rem;
+  background-color: white;
+}
+
+footer p {
+  margin: 0 auto;
+}
+
+.socket {
+  background-color: grey;
+}
+
+.socket a {
+  text-decoration: none;
+  color: white;
+}
+
+.socket a:hover {
+  color: maroon;
 }
 
 /* =================MEDIA QUERIES================= */
