@@ -41,7 +41,7 @@ export const rules = [
   {
     img: RulesImage6,
     title: 'Sixth',
-    rule: 'The player has drawn the 9 of Spades. This card also does not benefit the hand.',
+    rule: 'The second player has drawn the 9 of Spades. This card also does not benefit the hand.',
   },
   {
     img: RulesImage7,
