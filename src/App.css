@@ -1,12 +1,11 @@
 body {
   overflow-x: hidden;
   font-family: 'Baskervville', serif;
-  color: white;
+  color: black;
   background-image: url('./images/RummyBackground.jpeg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
 }
 
 /* ==================NAVIGATION==================== */
@@ -20,7 +19,7 @@ body {
   font-size: 1.15rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
-  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
 
@@ -39,6 +38,14 @@ body {
 .nav-link.active,
 .nav-link:hover {
   color: maroon !important;
+}
+
+/*==================RULES========================= */
+
+.rules-container {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
 /* =================MEDIA QUERIES================= */

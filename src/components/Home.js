@@ -1,7 +1,12 @@
 import React from 'react';
+import Rules from '../components/Rules';
 
 const Home = () => {
-  return <div></div>;
+  return (
+    <React.Fragment>
+      <Rules />
+    </React.Fragment>
+  );
 };
 
 export default Home;
